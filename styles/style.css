@@ -419,12 +419,17 @@
 
 .footer {
   box-sizing: border-box;
-  padding: 200px 80px;
+  min-height: 224px;
+  /* margin: 60px 60px; */
   background-color: #1f1f1f;
   color: #fff;
+  display: block;
+  padding: 60px 120px 60px 80px;
 }
 
 .footer__columns {
+  display: flex;
+  flex-direction: row;
 }
 
 .footer__column_content_hours {
@@ -434,6 +439,9 @@
 }
 
 .footer__logo {
+  display: flex;
+  flex-basis: 116px;
+  max-height: 21px;
 }
 
 .footer__list {
@@ -450,10 +458,6 @@
 }
 
 .footer__column-link {
-  color: white;
-  font-size: 16px;
-  line-height: 20px;
-  text-decoration: none;
 }
 
 .footer__social-icon {
