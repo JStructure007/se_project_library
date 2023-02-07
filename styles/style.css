@@ -429,13 +429,16 @@
 
 .footer__columns {
   display: flex;
-  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
 .footer__column_content_hours {
+  margin: 0px 100px 0px auto;
 }
 
 .footer__column_content_social {
+  margin: 0px;
 }
 
 .footer__logo {
@@ -448,20 +451,32 @@
   /* The code below removes the default browser styles for lists */
   list-style-type: none;
   padding: 0;
-  margin: 0;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
 .footer__list-item {
+  margin-bottom: 16px;
 }
 
 .footer__column-heading {
+  margin: 0px 0px 20px 0px;
 }
 
 .footer__column-link {
+  color: #fff;
 }
 
 .footer__social-icon {
+  max-width: 16px;
+  max-height: 16px;
 }
 
 .footer__copyright {
+  /* display: flex;
+  align-self: flex-end; */
+  text-align: start;
+  margin: 0px;
 }
