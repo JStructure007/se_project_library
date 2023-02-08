@@ -471,7 +471,7 @@
 .footer__list {
   /* The code below removes the default browser styles for lists */
   list-style-type: none;
-  padding: 0;
+  padding: 0px;
   margin: 0px;
   display: flex;
   flex-direction: column;
@@ -479,7 +479,8 @@
 }
 
 .footer__list-item {
-  margin-bottom: 16px;
+  margin: 0px 0px 16px 0px;
+  padding: 0px;
 }
 
 .footer__column-heading {
