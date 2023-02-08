@@ -278,9 +278,16 @@
   margin: 24px 0 0;
   color: #ffffff;
 }
-
+/* .staff__image {
+  display: flex;
+  align-items: center;
+  background-image: url(../images/staff_picks_background.jpg);
+  flex-direction: column;
+  background-position: center;
+  background-size: cover;
+} */
 /* Add the CSS rule for your new class here. Make sure to place it before .card: parents should precede their children */
-.staff__cards {
+.staff__list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -436,15 +443,24 @@
 
 .footer__columns {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  /* align-items: flex-start; */
+}
+.footer__column {
+  display: flex;
+  justify-content: flex-start;
   align-items: flex-start;
+  flex-direction: column;
+  /* margin: auto; */
 }
 
 .footer__column_content_hours {
+  display: flex;
   margin: 0px 100px 0px auto;
 }
 
 .footer__column_content_social {
+  display: flex;
   margin: 0px;
 }
 
