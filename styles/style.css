@@ -446,6 +446,7 @@
 }
 .footer__column {
   display: flex;
+  flex-direction: column;
 }
 
 .footer__column_content_hours {
