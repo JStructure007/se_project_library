@@ -287,7 +287,7 @@
   background-size: cover;
 } */
 /* Add the CSS rule for your new class here. Make sure to place it before .card: parents should precede their children */
-.staff__list {
+.staff__cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
