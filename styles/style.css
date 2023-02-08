@@ -254,6 +254,12 @@
 .staff {
   padding-top: 100px;
   padding-bottom: 140px;
+  display: flex;
+  align-items: center;
+  background-image: url(../images/staff_picks_background.jpg);
+  flex-direction: column;
+  background-position: center;
+  background-size: cover;
 }
 
 .staff__title {
@@ -272,16 +278,9 @@
   margin: 24px 0 0;
   color: #ffffff;
 }
-.staff__image {
-  display: flex;
-  align-items: center;
-  background-image: url(../images/staff_picks_background.jpg);
-  flex-direction: column;
-  background-position: center;
-  background-size: cover;
-}
+
 /* Add the CSS rule for your new class here. Make sure to place it before .card: parents should precede their children */
-.staff__list {
+.staff__cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
