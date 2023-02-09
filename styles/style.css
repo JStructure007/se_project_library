@@ -55,7 +55,7 @@
 .header__link:hover {
   color: #1f69c9;
 }
-.events:hover {
+.events__more:hover {
   color: #1f69c9;
 }
 .header__title {
@@ -489,6 +489,10 @@
 
 .footer__column-link {
   color: #fff;
+}
+
+.footer__column-link:hover {
+  color: #c1c1c1;
 }
 
 .footer__social-icon {
