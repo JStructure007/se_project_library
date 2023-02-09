@@ -275,7 +275,7 @@
   font-size: 20px;
   line-height: 30px;
   font-weight: 400;
-  margin: 24px 0px 68px 0px;
+  margin: 24px 0px 0px 0px;
   color: #ffffff;
 }
 /* .staff__image {
@@ -292,8 +292,9 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 40px;
-  margin-top: auto;
+  margin-top: 68px;
   max-width: 760px;
+  margin-left: 0px;
   padding-left: 0;
 }
 .card {
