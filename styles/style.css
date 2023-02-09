@@ -463,9 +463,8 @@
 }
 
 .footer__logo {
-  /* display: flex; */
-  flex-basis: 116px;
-  max-height: 21px;
+  width: 116px;
+  height: 21px;
 }
 
 .footer__list {
