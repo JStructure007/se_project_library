@@ -293,9 +293,9 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 40px;
-  margin: 68px auto 0 auto;
+  margin: 68px auto 0;
   padding: 0;
-  width: 760px;
+  max-width: 760px;
   list-style-type: none;
   /* margin-left: 0px; */
   /* padding-left: 0; */
