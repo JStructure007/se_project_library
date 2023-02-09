@@ -293,7 +293,8 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 40px;
-  margin-top: 68px;
+  margin: 68px 0px 0px 0px;
+  padding: 0px;
   width: 760px;
   /* margin-left: 0px; */
   /* padding-left: 0; */
