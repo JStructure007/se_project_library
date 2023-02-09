@@ -293,9 +293,10 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 40px;
-  margin: 68px 0px 0px 0px;
-  padding: 0px;
+  margin: 68px auto 0 auto;
+  padding: 0;
   width: 760px;
+  list-style-type: none;
   /* margin-left: 0px; */
   /* padding-left: 0; */
 }
@@ -306,7 +307,7 @@
   box-sizing: border-box;
   width: 360px;
   height: 420px;
-  list-style-type: none;
+  /* list-style-type: none; */
 }
 
 .card__content {
