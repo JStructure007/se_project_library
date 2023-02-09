@@ -252,8 +252,8 @@
   margin: 0;
 }
 .staff {
-  padding-top: 100px;
-  padding-bottom: 140px;
+  /* padding-top: 100px;
+  padding-bottom: 140px; */
   display: flex;
   align-items: center;
   background-image: url(../images/staff_picks_background.jpg);
@@ -266,7 +266,7 @@
   text-align: center;
   font-size: 44px;
   line-height: 52px;
-  margin: 0 0 24px;
+  /* margin: 0 0 24px; */
   color: #ffffff;
 }
 
@@ -275,7 +275,7 @@
   font-size: 20px;
   line-height: 30px;
   font-weight: 400;
-  margin: 24px 0px 0px 0px;
+  /* margin: 24px 0px 0px 0px; */
   color: #ffffff;
 }
 /* .staff__image {
