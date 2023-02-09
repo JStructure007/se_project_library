@@ -252,8 +252,8 @@
   margin: 0;
 }
 .staff {
-  /* padding-top: 100px;
-  padding-bottom: 140px; */
+  padding-top: 100px;
+  padding-bottom: 140px;
   display: flex;
   align-items: center;
   background-image: url(../images/staff_picks_background.jpg);
