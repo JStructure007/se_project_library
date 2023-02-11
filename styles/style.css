@@ -1,5 +1,4 @@
 .page {
-  /* Add page class properties here */
   min-width: 1100px;
   max-width: 1600px;
   margin: 0 auto;
@@ -20,11 +19,9 @@
 }
 
 .nav {
-  /* Add flex properties here */
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  /* margin: 40px 60px;  */
 }
 
 .logo {
@@ -34,7 +31,6 @@
 }
 
 .nav__links {
-  /* Reset default list styles here */
   display: flex;
   flex-direction: row;
   justify-items: flex-start;
@@ -190,42 +186,33 @@
   align-items: center;
   flex-direction: column;
   gap: 10px;
-  /* top: 0px;
-  left: 0px; */
 }
 
 .person_name_feynman {
-  /* Use correct values of top/right/bottom/left properties to position the element */
   position: absolute;
   top: -30px;
   left: 319px;
-
-  /* bottom: 200px; */
 }
 
 .person_name_burbidge {
-  /* Use correct values of top/right/bottom/left properties to position the element */
   position: absolute;
   top: 96px;
   right: 125px;
 }
 
 .person_name_cannon {
-  /* Use correct values of top/right/bottom/left properties to position the element */
   position: absolute;
   bottom: 18px;
   right: 216px;
 }
 
 .person_name_mitchell {
-  /* Use correct values of top/right/bottom/left properties to position the element */
   position: absolute;
   bottom: 82px;
   left: 142px;
 }
 
 .person_name_tarter {
-  /* Use correct values of top/right/bottom/left properties to position the element */
   position: absolute;
   top: 79px;
   left: 159px;
@@ -267,7 +254,6 @@
   text-align: center;
   font-size: 44px;
   line-height: 52px;
-  /* margin: 0 0 24px; */
   color: #ffffff;
 }
 
@@ -279,15 +265,6 @@
   margin: 0px 0px 0px 0px;
   color: #ffffff;
 }
-/* .staff__image {
-  display: flex;
-  align-items: center;
-  background-image: url(../images/staff_picks_background.jpg);
-  flex-direction: column;
-  background-position: center;
-  background-size: cover;
-} */
-/* Add the CSS rule for your new class here. Make sure to place it before .card: parents should precede their children */
 .staff__cards {
   display: flex;
   flex-wrap: wrap;
@@ -297,8 +274,6 @@
   padding: 0;
   max-width: 760px;
   list-style-type: none;
-  /* margin-left: 0px; */
-  /* padding-left: 0; */
 }
 .card {
   background-color: #fff;
@@ -307,7 +282,6 @@
   box-sizing: border-box;
   width: 360px;
   height: 420px;
-  /* list-style-type: none; */
 }
 
 .card__content {
@@ -335,8 +309,6 @@
   font-size: 14px;
   line-height: 20px;
   color: #838383;
-  /* Auto margins applied on a flex item automatically extend specified margin to occupy the extra space in the flex container */
-  /* In our case, this pushes the element down to the bottom */
   margin-top: auto;
 }
 
@@ -359,14 +331,12 @@
   list-style-type: none;
   padding: 0;
   margin: 100px 0 0;
-  /* Add styles */
   display: flex;
   justify-content: center;
   gap: 40px;
 }
 
 .step {
-  /* Add styles */
   flex-direction: column;
   flex-basis: 220px;
 }
@@ -454,16 +424,11 @@
 }
 
 .footer__column_content_hours {
-  /* display: flex; */
   margin: 0px 100px 0px auto;
-  /* flex-direction: column; */
 }
 
 .footer__column_content_social {
-  /* display: flex;
-  margin: 0px;
-  flex-direction: column; */
-  /* margin-left: -10px; */
+  margin: 0;
 }
 
 .footer__logo {
@@ -472,7 +437,6 @@
 }
 
 .footer__list {
-  /* The code below removes the default browser styles for lists */
   list-style-type: none;
   padding: 0px;
   margin: 0px;
@@ -504,8 +468,6 @@
 }
 
 .footer__copyright {
-  /* display: flex;
-  align-self: flex-end; */
   text-align: start;
   margin: 0px auto 0px 0px;
 }
