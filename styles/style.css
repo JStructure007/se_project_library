@@ -38,6 +38,7 @@
   list-style: none;
   column-gap: 20px;
   padding: 0;
+  margin: 0;
 }
 
 .nav__link {
@@ -195,7 +196,7 @@
 }
 
 .person_name_burbidge {
-  position: absolute;
+  /* position: absolute; */
   top: 96px;
   right: 125px;
 }
@@ -254,6 +255,7 @@
   text-align: center;
   font-size: 44px;
   line-height: 52px;
+  margin: 0 0 24px;
   color: #ffffff;
 }
 
@@ -446,16 +448,20 @@
 }
 
 .footer__list-item {
-  margin: 0px 0px 16px 0px;
+  /* margin: 0px 0px 16px 0px; */
   padding: 0px;
 }
 
 .footer__column-heading {
   margin: 0px 0px 20px 0px;
+  font-size: 16px;
 }
 
 .footer__column-link {
   color: #fff;
+  text-decoration: none;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .footer__column-link:hover {
@@ -465,9 +471,10 @@
 .footer__social-icon {
   width: 16px;
   height: 16px;
+  margin-right: 10px;
 }
 
 .footer__copyright {
   text-align: start;
-  margin: 0px auto 0px 0px;
+  margin: 108px auto 0px 0px;
 }
